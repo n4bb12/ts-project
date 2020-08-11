@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node12/tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "outDir": "dist/tsc",
+    "rootDir": "src",
+    "target": "es2018"
+  }
+}

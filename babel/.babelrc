@@ -1,0 +1,32 @@
+{
+  "parserOpts": {
+    "strictMode": true
+  },
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "babel-plugin-const-enum"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "corejs": 3,
+        "modules": "commonjs",
+        "targets": {
+          "node": "10"
+        },
+        "useBuiltIns": "usage"
+      }
+    ],
+    // always add preset-typescript after preset-env
+    // to avoid unexpected code emit
+    [
+      "@babel/preset-typescript",
+      {
+        "allowDeclareFields": true,
+        "allowNamespaces": true,
+        "onlyRemoveTypeImports": true
+      }
+    ]
+  ]
+}

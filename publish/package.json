@@ -1,0 +1,15 @@
+{
+  "name": "@n4bb12/ts-project-publish",
+  "version": "0.0.0-development",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "$schema": "https://json.schemastore.org/package"
+}

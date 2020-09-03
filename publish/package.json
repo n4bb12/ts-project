@@ -1,6 +1,6 @@
 {
   "name": "@n4bb12/ts-project-publish",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "license": "ISC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

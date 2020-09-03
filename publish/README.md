@@ -1,3 +1,12 @@
+Example publishing TypeScript types
+
 ```sh
-yarn tsc --build bases
+rm -rf storage
+yarn verdaccio --config verdaccio.yaml
+```
+
+```sh
+yarn build:publish
+cd publish
+npm publish --registry http://localhost:4873
 ```

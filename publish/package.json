@@ -11,5 +11,8 @@
   "engines": {
     "node": ">=12"
   },
-  "$schema": "https://json.schemastore.org/package"
+  "$schema": "https://json.schemastore.org/package",
+  "devDependencies": {
+    "@n4bb12/ts-project-publish": "1.0.0"
+  }
 }

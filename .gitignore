@@ -1,7 +1,5 @@
 .vscode/
-*.js
 *.log
-dist/
 node_modules/
 storage/*/
 htpasswd

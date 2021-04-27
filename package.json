@@ -15,29 +15,29 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,json,md,yml,html}\""
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tslib": "^2.0.1"
+    "core-js": "^3.11.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tslib": "^2.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-typescript": "^7.10.4",
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
     "@tsconfig/node10": "^1.0.7",
     "@tsconfig/node12": "^1.0.7",
-    "@types/jest": "^26.0.9",
-    "@types/node": "^14.0.27",
-    "@types/react": "^16.9.46",
-    "@types/react-dom": "^16.9.8",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.0",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
     "babel-plugin-const-enum": "^1.0.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.0.5",
-    "typescript": "^4.1.0-dev.20200815",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4",
     "utility-types": "^3.10.0",
-    "verdaccio": "^4.8.1"
+    "verdaccio": "^5.0.1"
   },
   "engines": {
     "node": ">=12"

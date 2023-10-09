@@ -1,5 +1,5 @@
 .vscode/
 *.log
 node_modules/
-storage/*/
+storage/
 htpasswd
